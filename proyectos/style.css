@@ -13,19 +13,21 @@
   .contenedorCajitas {
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding: 1em;
   }
   
   .cajitas {
     color: rgb(7, 7, 7);
     font-family:'Gloria Hallelujah', cursive;
     font-size: 20px;
+
   }
 
   .contenedorTarjetas {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
 
   }
 
