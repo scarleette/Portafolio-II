@@ -30,8 +30,9 @@
   }
 
   img {
-      width: 230px;
-      height: 200px;
+      width: 200px;
+      height: 130px;
+      margin-left: 10px;
   }
   
   .divider {
