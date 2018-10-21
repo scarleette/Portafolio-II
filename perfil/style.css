@@ -50,3 +50,34 @@
     width: 100%;
     height: 5px;
   }
+
+  @media (max-width: 600px) {
+    img {
+      width: 250px;
+      height: 180px;
+      border-radius: 50%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .cajitas {
+    color: black;
+    font-family:'Gloria Hallelujah', cursive;
+    font-size: 15px;
+      margin: 5px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .contenedorCajitas {
+      display: block;
+      padding: 0%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .contenedorHeader{
+      justify-content: space-between; 
+    }
+  }
+  
