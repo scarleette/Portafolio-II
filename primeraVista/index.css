@@ -54,7 +54,8 @@ font-family:'Gloria Hallelujah', cursive;
 
 @media (max-width: 600px) {
   .contenedorCajitas {
-    padding: 2em;
+    padding: 3em;
+    justify-content: space-around;
   }
 }
 

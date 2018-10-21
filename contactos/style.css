@@ -11,7 +11,7 @@
   .contenedorCajitas {
     display: flex;
     justify-content: space-between;
-    padding: 5em;
+    padding: 6em;
   }
 
   .contenedorCajitas1 {
@@ -56,13 +56,13 @@
 
 @media (max-width: 600px){
   .contenedorCajitas {
-    text-align: center;
+    justify-content: space-around;
   }
 }
 
 @media (max-width: 600px) {
   a {
     font-size: 15px;
-    margin: 15px;
+    margin: 20px;
   }
 }
