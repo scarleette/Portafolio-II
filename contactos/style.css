@@ -5,9 +5,7 @@
     
   a {
   color: black;
-  /* color: white; */
   font-family:'Gloria Hallelujah', cursive;
-  
   
   }
   .contenedorCajitas {
@@ -15,20 +13,43 @@
     justify-content: space-between;
     padding: 5em;
   }
-  
-  .cajitas {
-    color: rgb(7, 7, 7);
-    font-family:'Gloria Hallelujah', cursive;
-    font-size: 20px;
+
+  .contenedorCajitas1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
   }
+  
 
   img {
     width: 230px;
     height: 200px;
+    margin: 10px;
 }
 
 .divider {
   background-color: red;
   width: 100%;
   height: 5px;
+}
+
+@media (max-width: 600px){
+  img {
+    width: 120px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 600px){
+  .imagen {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px){
+  .contenedorCajitas1 {
+    display: block;
+    text-align: center;
+    padding: 2em;
+  }
 }
